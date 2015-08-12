@@ -1,5 +1,5 @@
 section.header-box {
-    background: #7d638e url('../img/background_tucuman_header_box.png') no-repeat;
+    background: #f07b80 url('../img/background_bsas_header_box.png') no-repeat;
     background-size: 100%;
     text-align: center;
     color: #ffffff;
@@ -39,7 +39,7 @@ section.text.registro {
 }
 
 section.text {
-    background-color: #7d638e;
+    background-color: #f07b80;
     padding: 10% 0 16% 0;
 }
 
@@ -50,7 +50,7 @@ section.text div div {
 }
 
 section.text.registro div div {
-    color: #7d638e;
+    color: #f07b80;
 }
 
 section.text .container {
@@ -65,8 +65,8 @@ section.text .date {
 }
 
 section.text.registro .month {
-    border-top: 1px solid #7d638e;
-    border-bottom: 1px solid #7d638e;
+    border-top: 1px solid #f07b80;
+    border-bottom: 1px solid #f07b80;
 }
 
 section.text .month {
@@ -88,7 +88,7 @@ section.text .info {
 }
 
 section.text .info span {
-    color: #c4b9cb;
+    color: #f7c3c7;
 }
 
 section.text.registro .info span {
@@ -119,7 +119,7 @@ section.people p {
 }
 
 section.people p.nombre {
-    color: #7d638e;
+    color: #f07b80;
     margin-top: 10%;
 }
 
@@ -142,7 +142,7 @@ section.location img {
 }
 
 section.location .title {
-    background: #7d638e;
+    background: #f07b80;
     width: 160px;
     height: 160px;
     color: #ffffff;
@@ -184,26 +184,26 @@ section.form .input p {
 
 section.form .input p.error {
     text-align: right;
-    color: #7d638e;
+    color: #f07b80;
     float: right;
     display: none;
 }
 
 section.form .button {
-    border: 4px solid #7d638e;
+    border: 4px solid #f07b80;
     border-radius: 100px;
     width: 100px;
     height: 100px;
     background-color: #ffffff;
-    color: #7d638e;
+    color: #f07b80;
     text-align: center;
     margin-top: 4%;
 }
 
 section.form .button:hover,
 section.form .confirmation .button {
-    background-color: #7d638e;
-    color: #ffffff;
+    background-color: #f07b80;
+    color: #f07b80;
 }
 
 section.form .confirmation {
@@ -211,7 +211,7 @@ section.form .confirmation {
 }
 
 section.form .error_text {
-    color: #7d638e;
+    color: #f07b80;
     float: right;
     margin-top: -8%;
     width: 40%;
