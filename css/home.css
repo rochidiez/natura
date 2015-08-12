@@ -1,7 +1,6 @@
-
-
 section.header-box {
-    background: url('../img/background_header_box.jpg') no-repeat 100%;
+    background: url('../img/background_header_box.jpg') no-repeat;
+    background-size: 100%;
     text-align: center;
     color: #ffffff;
     padding: 14% 0;
@@ -24,10 +23,7 @@ section.header-box p.title span {
 }
 
 section.header-box .scroll {
-    position: absolute;
-    bottom: 5%;
-    right: 49%;
-    z-index: 1;
+    margin-top: 5%;
 }
 
 section.text {
@@ -39,7 +35,7 @@ section.text p {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
 section.text p.min {
@@ -82,4 +78,3 @@ section.links p {
     margin-top: 6%;
 }
 
-section.legals {}

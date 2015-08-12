@@ -1,0 +1,131 @@
+section.header-box {
+    background: #ff8200 url('../img/background_bsas_header_box.jpg') no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 10% 0 24% 0;
+    position: relative;
+}
+
+section.header-box h1 {
+    font-size: 66px;
+    color: #896667;
+    font-weight: normal;
+    margin: 0;
+}
+
+section.header-box p.title {
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 1% auto;
+    font-size: 24px;
+}
+
+section.header-box p.title span {
+    font-family: 'latoregular';
+}
+
+section.header-box .scroll {
+    margin-top: 5%;
+}
+
+section.text {
+    background-color: #ff8200;
+    color: #ffffff;
+    padding: 0 0 16% 0;
+}
+
+section.text div div {
+    float: left;
+    margin: 0 2%;
+}
+
+section.text .container {
+    width: 36%;
+}
+
+section.text .date {
+    font-size: 90px;
+    text-align: right;
+    width: auto;
+    font-family: 'latoregular';
+}
+
+section.text .month {
+    font-size: 40px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    width: auto;
+    font-family: 'latoregular';
+    text-align: center;
+    margin-top: 8%;
+}
+
+section.text .info {
+    font-size: 21px;
+    text-align: center;
+    float: right;
+    margin-top: 6%;
+}
+
+section.text .info span {
+    color: #f9d08c;
+}
+
+.btn_reserva {
+    text-align: center;
+    margin-top: -6%;
+    z-index: 1;
+}
+
+section.people {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 4% 0 10% 0;
+}
+
+section.people p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section.people p.nombre {
+    color: #ff8200;
+    margin-top: 10%;
+}
+
+section.people p.text {
+    font-size: 14px;
+    margin-bottom: 2%;
+}
+
+section.people p.quote {
+    font-size: 18px;
+    margin-top: 6%;
+}
+
+section.location {
+    position: relative;
+}
+
+section.location img {
+    width: 100%;
+}
+
+section.location .title {
+    background: #ff8200;
+    width: 160px;
+    height: 160px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    top: -20%;
+    left: 43%;
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+    padding-top: 60px;
+    line-height: 1;
+}
