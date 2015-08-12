@@ -1,0 +1,85 @@
+
+
+section.header-box {
+    background: url('../img/background_header_box.jpg') no-repeat 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 14% 0;
+    position: relative;
+}
+
+section.header-box p {
+    font-size: 20px;
+}
+
+section.header-box p.title {
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 1% auto;
+    font-size: 34px;
+}
+
+section.header-box p.title span {
+    font-family: 'latoregular';
+}
+
+section.header-box .scroll {
+    position: absolute;
+    bottom: 5%;
+    right: 49%;
+    z-index: 1;
+}
+
+section.text {
+    background: url('../img/background_text_section.png') no-repeat 100% top;
+    padding: 10% 0 1% 0;
+}
+
+section.text p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+section.text p.min {
+    font-size: 12px;
+    margin-top: 9%;
+}
+
+section.links {
+    background: url('../img/background-links.jpg') no-repeat 100% top;
+    text-align: center;
+    padding: 2% 0;
+}
+
+section.links h1 {
+    font-weight: 100;
+    color: #702044;
+}
+
+section.links ul {
+    padding-left: 0;
+    width: 80%;
+    margin: 6% auto;
+    list-style: none;
+
+}
+
+section.links ul li {
+    width: 21%;
+    margin: 0 2%;
+    float: left;
+
+}
+section.links ul li a:hover {opacity: .7;}
+section.links ul li img {width: 100%;}
+
+
+section.links p {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 6%;
+}
+
+section.legals {}
