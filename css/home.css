@@ -28,7 +28,7 @@ section.header-box .scroll {
 
 section.text {
     background: url('../img/background_text_section.png') no-repeat 100% top;
-    padding: 10% 0 1% 0;
+    padding: 2% 0 2% 0;
 }
 
 section.text p {
@@ -44,7 +44,8 @@ section.text p.min {
 }
 
 section.links {
-    background: url('../img/background-links.jpg') no-repeat 100% top;
+    background: url('../img/background-links.jpg') no-repeat top;
+    background-size: 100% 100%;
     text-align: center;
     padding: 2% 0;
 }
@@ -77,4 +78,30 @@ section.links p {
     text-align: center;
     margin-top: 6%;
 }
+section.links ul {list-style: none;}
 
+@media screen and (max-width: 1170px) {
+    section.header-box {padding: 14% 0 10% 0;}
+    section.text {padding: 4% 0 10% 0;}
+    
+ }
+@media screen and (max-width: 960px) {
+ section.header-box {background-size: auto 100%;}
+}
+
+
+@media screen and (max-width: 550px) {
+     section.header-box .title img {width: 30%;
+        margin: 0 auto;}
+        section.header-box p.title {font-size: 16px;}
+        section.header-box h1 {font-size: 30px;}
+        section.header-box p {font-size: 14px;}
+
+        section.text p {width: 96%;
+            font-size: 14px;}
+        section.links ul li {width: 60%;
+            margin: 2% auto;
+            float: none;}
+            section.links ul li img {margin: 0 auto;}
+            section.links {background-size: auto 100%;}
+}

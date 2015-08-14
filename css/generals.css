@@ -7,7 +7,8 @@ body {
 .container {
     width: 960px;
 }
-
+section.legals a {color: #ffffff;}
+section.legals a:hover {opacity: .7;}
 section.legals {
     background-color: #b0b0b0;
     color: #ffffff;
@@ -48,4 +49,20 @@ footer {
 footer p {
     line-height: 3;
     margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .container {width: 100%;}
+    
+
+}
+
+@media screen and (max-width: 550px) {
+    .scroll {display: none;}
+     section.location .title {
+        display: none;
+    }
+    section.legals {
+        display: none;
+    }
 }

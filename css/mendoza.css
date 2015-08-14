@@ -224,3 +224,82 @@ section.location p.min {
     text-align: center;
     margin-top: 5%;
 }
+
+@media screen and (max-width: 960px) {
+    section.header-box {
+        background-size: auto 100%;
+    }
+    section.text {
+        padding: 4% 0 8% 0;
+    }
+    section.text .container {
+        width: 60%;
+    }
+    section.people p.nombre {
+        padding-top: 2%;
+    }
+    section.people p.quote {
+        margin-top: 0;
+        margin-bottom: 4%;
+    }
+    section.location .title {
+        width: 140px;
+        height: 140px;
+        left: 41%;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    section.text .container {
+        width: 80%;
+    }
+    section.location img {
+        width: 140%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section.header-box h1 {
+        font-size: 40px;
+    }
+    section.header-box p.title {
+        font-size: 20px;
+    }
+    section.text .info {
+        font-size: 18px;
+        width: 100%;
+    }
+    section.text .date {
+        font-size: 60px;
+        width: 40%;
+    }
+    section.text .month {
+        font-size: 30px;
+        margin-top: 10%;
+        width: 40%;
+    }
+    section.location .title {
+        display: none;
+    }
+    section.legals {
+        display: none;
+    }
+    section.people img {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .btn_reserva {margin-top: -20%;}
+    .btn_reserva img {
+        width: 60%;
+        margin: 0 auto;
+    }
+    section.text {
+        padding: 4% 0 30% 0;
+    }
+
+    section.header-box .title img {width: 30%;
+        margin: 0 auto;}
+        section.header-box p.title {font-size: 16px;}
+        section.header-box h1 {font-size: 30px;}
+}
