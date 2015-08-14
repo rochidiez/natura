@@ -133,6 +133,8 @@ section.people p.quote {
     margin-top: 6%;
 }
 
+section.people ul li {border-bottom: 1px solid #f07b80;}
+
 section.location {
     position: relative;
 }
@@ -150,7 +152,7 @@ section.location .title {
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    top: -20%;
+    top: 0;
     left: 43%;
     position: absolute;
     z-index: 1;
@@ -167,12 +169,13 @@ section.form .input {
     width: 90%;
     margin: 0 auto;
 }
-
+section.form .input div {width: 50%;
+    float: left;}
 section.form .input input {
     border: 0;
     border-bottom: 1px solid #808080;
     background-color: #ffffff;
-    width: 100%;
+    width: 98%;
     padding: 2%;
 }
 
@@ -187,6 +190,7 @@ section.form .input p.error {
     color: #f07b80;
     float: right;
     display: none;
+    margin-right: 2%;
 }
 
 section.form .button {
@@ -203,7 +207,7 @@ section.form .button {
 section.form .button:hover,
 section.form .confirmation .button {
     background-color: #f07b80;
-    color: #f07b80;
+    color: #ffffff;
 }
 
 section.form .confirmation {
