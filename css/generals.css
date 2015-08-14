@@ -15,7 +15,13 @@ section.legals {
     font-size: 12px;
     padding: 4% 0;
 }
-
+section.people ul {padding-left: 0;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    margin-top: 6%;}
+section.people ul li {margin: 4% 0;
+    padding: 2% 0;}
 section.legals ul {
     padding-left: 0;
     list-style: none;
@@ -50,7 +56,11 @@ footer p {
     line-height: 3;
     margin: 0;
 }
-
+p.min {font-size: 12px;
+    text-align: center;
+    }
+p.min.right {float: right;}
+p.min.left {float: left;}
 @media screen and (max-width: 960px) {
     .container {width: 100%;}
     
