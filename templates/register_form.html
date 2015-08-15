@@ -1,0 +1,108 @@
+<section class="form">
+    
+    <form ng-submit="register()" name="registerForm" class="css-form" novalidate>
+        <div class="container">
+            <p class="text">
+                Para no perder tu lugar en el evento del año, registrate.
+                <br/> Te enviaremos un mail con todos los detalles.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="row" ng-show="status != 'submitted'">
+                <div class="col-md-6">
+                    <div class="input clearfix">
+                        <input type="text" 
+                               name="fullname" 
+                               ng-model="registerData.fullname"
+                               required="">
+
+                        <p>Nombre y Apellido</p>
+
+                        <p class="error" 
+                           ng-show="submitted && registerForm.fullname.$error.required">
+                            Necesario
+                        </p>
+                    </div>
+                    <div class="input">
+                        <div>
+                            <input type="text" 
+                                   name="dni"
+                                   ng-model="registerData.dni"
+                                   required="">
+                            <p>DNI</p>
+                            <p class="error"
+                               ng-show="submitted && registerForm.dni.$error.required">Necesario</p>
+
+                        </div>
+                        <div>
+                            <input type="text" 
+                                  name="codigo"
+                                  ng-model="registerData.codigo"
+                                  required="">
+                            <p>Código consultora</p>
+
+                            <p class="error"
+                                ng-show="submitted && registerForm.codigo.$error.required">Necesario</p>
+                        </div> 
+                    </div>
+                    <div class="input">
+                        <input type="email" 
+                               ng-model="registerData.email"
+                               name="email" 
+                               required="">
+
+                        <p>Email</p>
+                        <p class="error"
+                           ng-show="submitted && registerForm.email.$error.required">Necesario</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="input">
+                        <input type="text" 
+                               name="sector"
+                               ng-model="registerData.sector"
+                               required="">
+                        <p>Sector</p>
+                        <p class="error"
+                           ng-show="submitted && registerForm.sector.$error.required">Necesario</p>
+                    </div>
+                    <div class="input">
+                        <input type="phone" 
+                               name="phone"
+                               ng-model="registerData.phone"
+                               required="">
+                        <p>Teléfono</p>
+                        <p class="error"
+                           ng-show="submitted && registerForm.phone.$error.required">Necesario</p>
+                    </div>
+                    <div class="input">
+                        <input type="email" 
+                               name="repeatEmail"
+                               ng-model="registerData.repeatEmail"
+                               required="">
+                        <p>Repetir Email</p>
+                           
+                        <p class="error" 
+                           ng-show="submitted && registerForm.repeatEmail.$error.dontMatch">No concuerda con tu email</p>
+                    </div>
+                </div>
+
+                <div class="default">
+                    <div class="row">
+                        <button class="button">Enviar</button>
+                    </div>
+                    <div class="error_text">Hubo un error con los datos.
+                        <br/>Chequeá que esté correcto</div>
+                </div>
+            </div>
+            <div class="confirmation" ng-show="status == 'submitted'">
+                <div class="row">
+                    <button class="button">¡Listo!</button>
+                </div>
+                <div>Ya tenés tu lugar para Natura Valora
+                    <br/>¡Te esperamos!</div>
+            </div>
+        </div>
+    </form>
+</section>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="naturaApp">
 
 <head>
     <meta charset="utf-8">
@@ -14,6 +14,8 @@
     <link href="css/generals.css" rel="stylesheet">
     <link href="css/bsbs.css" rel="stylesheet">
     <link href="fonts/stylesheet.css" rel="stylesheet">
+
+    <script src="js/dist/src/index.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -50,73 +52,12 @@
           <span>Entrada gratuita</span>
             </div>
         </div>
-        <div class="container">
-            <p class="text">
-                Para no perder tu lugar en el evento del año, registrate.
-                <br/> Te enviaremos un mail con todos los detalles.
-            </p>
-        </div>
     </section>
-    <section class="form">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-                <div class="input clearfix">
-                    <input type="text" name="name" />
-                    <p>Nombre y Apellido</p>
-                    <p class="error">Necesario</p>
-                </div>
-                <div class="input">
-                    <div>
-                        <input type="text" name="DNI" />
-                        <p>DNI</p>
-                        <p class="error">Necesario</p>
-                    </div>
-                    <div>
-                        <input type="text" name="codigo" />
-                        <p>Código consultora</p>
-                        <p class="error">Necesario</p>
-                    </div>
-                </div>
-                <div class="input">
-                    <input type="email" name="Email" />
-                    <p>Email</p>
-                    <p class="error">Necesario</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="input">
-                    <input type="text" name="sector" />
-                    <p>Sector</p>
-                    <p class="error">Necesario</p>
-                </div>
-                <div class="input">
-                    <input type="phone" name="phone" />
-                    <p>Teléfono</p>
-                    <p class="error">Necesario</p>
-                </div>
-                <div class="input">
-                    <input type="email" name="Email" />
-                    <p>Repetir Email</p>
-                    <p class="error">No concuerda con tu email</p>
-                </div>
-            </div>
-          </div>
-          <div class="default">
-            <div class="row">
-              <button class="button ">Enviar</buttton>
-            </div>
-            <div class="error_text">Hubo un error con los datos.<br/>Chequeá que esté correcto</div>
-          </div>
-          <div class="confirmation">
-            <div class="row">
-              <button class="button">¡Listo!</buttton>
-            </div>
-            <div class="error_text">Ya tenés tu lugar para Natura Valora<br/>¡Te esperamos!</div>
-          </div>
-            
-        </div>
-    </section>
+    
+
+    <register-form state="buenosaires"></register-form>
+
+
     <section class="location">
         <p class="min">Jornada exclusiva para consultoras/es Natura. Entrada válida para una sola persona. Cupos limitados. Prohibida la entrada a menores de 18 años.</p>
         <div class="fluid_container">

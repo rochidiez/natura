@@ -190,7 +190,6 @@ section.form .input p.error {
     text-align: right;
     color: #7ec5a4;
     float: right;
-    display: none;
     margin-right: 2%;
 }
 
@@ -211,9 +210,7 @@ section.form .confirmation .button {
     color: #ffffff;
 }
 
-section.form .confirmation {
-    display: none;
-}
+
 
 section.form .error_text {
     color: #7ec5a4;

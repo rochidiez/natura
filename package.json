@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "angular": "^1.4.4",
+    "gulp-live-server": "0.0.23",
     "zetan": "^0.0.4"
   },
   "scripts": {
